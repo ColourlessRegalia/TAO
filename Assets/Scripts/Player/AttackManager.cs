@@ -126,6 +126,10 @@ public class AttackManager : MonoBehaviour {
                 {
                     Instantiate(IceSP, transform.position, IceSP.transform.rotation);
                 }
+                if (elementNo == 3)
+                {
+                    print("WindSp");
+                }
 			}
 		}
 
